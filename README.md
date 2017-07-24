@@ -8,7 +8,7 @@ Just a simple implementation of Conways Game of Life using images as the seed fo
 
 ## How to Run
 - download repo
-- <code>> cd game-of-life-image
-- <code>> pip install requirements
-- <code>> run tests
+- <code>> cd game-of-life-image </code>
+- <code>> pip install requirements </code>
+- <code>> run tests </code>
 - <code>> python main 'seed_image.png'</code>
