@@ -17,6 +17,7 @@ class Application(tk.Frame):
         self.draw_grid()
 
     def draw_grid(self):
+        self.canvas.delete('all')
         game_data = self.game.graph._data
         rows = len(game_data)
         cols = len(game_data[0])
