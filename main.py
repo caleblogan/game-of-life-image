@@ -11,7 +11,7 @@ if __name__ == '__main__':
         [0, 1, 1, 1],
         [0, 0, 0, 0]
     ]
-    seed_data = convert_to_seed('C:/Users/cloga_000/Pictures/giants_morse_behind_enemy_lines.jpg')
+    seed_data = convert_to_seed('./images/giants_morse_behind_enemy_lines.jpg')
     game = GameOfLife(GameGraph(seed_data))
 
     root = tk.Tk()
