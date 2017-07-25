@@ -24,7 +24,7 @@ class GameOfLife:
     def advance_generation(self):
         """
         Advances one generation of the game.
-        Handles the logic killing/reviving cells.
+        Each generation cells live or die depending on number of neighbors alive.
         Each cell is determined alive or dead simultaneously (use a copy of the graph).
         :return:
         """
